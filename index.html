@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRYPTOMONK</title>
+    <link rel="icon" type="image/x-icon" href="./assests/bitcoinicon.png">
+    <link rel="stylesheet" href="./bootstrap/bootstrap-5.3.2-dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    
+    <!--navbar-->
+    <div class="navbar-css">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon bg-primary"></span>
+        </button>
+        
+        <h1 class=" ms-5 webtitle">CRYPTOMONK</h1>
+        <img src="./assests/bitcoinicon.png" class="ms-2 icon" height="50px" width="60px">
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto me-3">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pages</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      </div>
+
+
+
+      <!--carousel-->
+      <div class="carousel-container">
+        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2500">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./assests/cryptocoins.jpg" class="d-block w-100 caro_img" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./assests/crypto_monk.gif" class="d-block w-100 caro_img" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./assests/img3.jpg" class="d-block w-100 caro_img" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./assests/img4.jpg" class="d-block w-100 caro_img" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./assests/slide1.jpg" class="d-block w-100 caro_img" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      </div>
+
+     
+ <div class="block-btn">    
+<button type="button" class="btn btn-primary mt-5 block-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  know about crypto
+</button>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">cryptocurrency</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p class="blockchainBody">
+          Cryptocurrency is a digital or virtual currency that uses cryptography for security. Unlike traditional currencies issued by governments, cryptocurrencies are decentralized and operate on a technology called blockchain.
+          
+        </p>
+        <h3>Uses and Applications</h3>
+        <ul class="about-crypto">
+          <li>Digital Payments: Cryptocurrencies can be used for online transactions, enabling fast and secure payments without the need for intermediaries like banks.
+
+          </li>
+          <li>Investment: Many people invest in cryptocurrencies, hoping to profit from price appreciation. The market is highly volatile, and prices can fluctuate widely.</li>
+          <li>Smart Contracts: Platforms like Ethereum enable smart contracts—self-executing contracts with the terms of the agreement directly written into code. These can automate and secure various types of transactions.</li>
+          <li>Decentralized Finance (DeFi): DeFi aims to recreate traditional financial systems (like loans and insurance) using decentralized technologies. DeFi platforms offer various financial services without relying on traditional financial institutions.</li>
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+<!--About bitcoin mining-->
+<div class="bitcoin-mining">
+  <h1 class="text-primary">What is Bitcoin Mining?</h1>
+  <p style="color:rgb(238, 227, 227)">The bitcoin network is a blockchain, a linked series of data “blocks” with each block containing a set of bitcoin transactions.<br> All over the world, thousands of Bitcoin miners race to be the first to complete a complex cryptographic “puzzle” using specialized computer equipment.<br>
+
+    The math problems the miners solve during each puzzle period (or “block”) enable the release of new bitcoins and the confirmation of transactions on the network.<br>
+    
+    Every time a miner successfully verifies a block of bitcoin transactions, they’re rewarded with a certain amount of bitcoin, an incentive for miners to do their work and keep the bitcoin network secure.</p>
+</div>
+<!--offcanvas-->
+<a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+  Explore Bitcoin Mining
+</a>
+
+
+<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasExampleLabel"></h5>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <div>
+      <h3 style="color:orange">Bitcoin mining is how:</h3>
+      <ul>
+        <li>new bitcoin comes into existence</li>
+        <li>transactions happen on Bitcoin’s proof of work blockchain</li>
+        <li>the network stays secure</li>
+      </ul>
+      <p>
+        <h4 style="color:orange">Here’s how the process works in more detail:</h4>
+       <ul>
+        <li>When a new transaction is made on the Bitcoin network, it is broadcast to all nodes in the network.</li><br>
+        <li>These nodes then race to validate the transaction by solving a complex computational puzzle. The first node to solve the puzzle adds the transaction to the blockchain and broadcasts the solution to the rest of the network.</li><br>
+        <li>Other nodes in the network check the solution to verify that it is correct. If it is, they add the transaction to their own copy of the blockchain and move on to the next puzzle.</li><br>
+        <li>As a reward for their efforts, the miner who solved the puzzle is awarded a certain number of bitcoins. This helps to incentivize miners to contribute their computational power to the network.</li><br>
+        <li>The difficulty of the puzzles is adjusted over time to ensure that it takes an average of about 10 minutes to add a new block of transactions to the blockchain. This helps keep the rate at which new bitcoins are created steady and makes it more difficult for attackers to manipulate the network.</li>
+       </ul>
+
+      </p>
+      <h4 style="color:orange">What is a bitcoin miner?</h4>
+      <ul>
+        <li>Miners are computers, and they are almost always an ASIC miner.</li><br>
+        <li>ASIC stands for Application-Specific Integrated Circuit, and while there are a variety of ASICs created for different purposes, these are made just to mine bitcoin.</li><br>
+        <li>While standard consumer devices like CPUs and GPUs were used in the past to mine bitcoin, those systems don’t offer the computational power needed to solve the hashing puzzle at the current level of mining difficulty</li>
+      </ul>
+    </div>
+    <div class="dropdown mt-3">
+      
+     
+    </div>
+  </div>
+</div>
+
+
+  
+</div>
+
+
+<a href="./coins.html" class="btn-77"><span class="btn-text">cryptocoins</span></a>
+  
+</body>
+</html>
